@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build" : "tsc -b",
+    "build" : "tsc --build",
     "dev": "node dist/index.js",
     "start" : "npm run build && npm run dev"
   },
